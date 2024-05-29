@@ -57,4 +57,5 @@ AWS EC2로 백엔드 서버를 열었음.
 ```
 
 
-##### 참고 : https://velog.io/@effirin/CORS%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
+##### 참고
+https://velog.io/@effirin/CORS%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
