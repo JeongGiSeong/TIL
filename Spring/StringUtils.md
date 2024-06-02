@@ -1,8 +1,9 @@
-- [String.isEmpty()](#stringisempty--)
-- [(deprecated)StringUtils.isEmpty()](#-deprecated-stringutilsisempty--)
+- [String.isEmpty()](#stringisempty)
+- [(deprecated)StringUtils.isEmpty()](#deprecatedstringutilsisempty)
 - [StringUtils](#stringutils)
-  * [hasLength()](#haslength--)
-  * [hasText()](#hastext--)
+  - [hasLength()](#haslength)
+  - [hasText()](#hastext)
+
 
 <hr>
 
