@@ -1,5 +1,9 @@
 - [Volumes](#volumes)
   - [volume이 bind mount보다 좋은 이유](#volume이-bind-mount보다-좋은-이유)
+  - [볼륨 생성](#볼륨-생성)
+  - [볼륨 목록 확인](#볼륨-목록-확인)
+  - [볼륨 삭제](#볼륨-삭제)
+  - [컨테이너에 볼륨 연결](#컨테이너에-볼륨-연결)
 
 https://docs.docker.com/storage/volumes/
 
@@ -16,3 +20,22 @@ https://docs.docker.com/storage/volumes/
 
 ![볼륨](https://docs.docker.com/storage/images/types-of-mounts-volume.webp?w=450&h=300)
 
+## 볼륨 생성
+```bash
+docker volume create my-vol
+```
+
+## 볼륨 목록 확인
+```bash
+docker volume ls
+```
+
+## 볼륨 삭제
+```bash
+docker volume rm my-vol
+```
+
+## 컨테이너에 볼륨 연결
+```bash
+docker run -v my-vol:path/ my-image
+```
